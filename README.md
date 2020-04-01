@@ -4,6 +4,4 @@ mmmmmmmmmmmmmmmmmmmmmmmmmmm
 uuuuuuuuuuuuuuuuuuuuuuuuuuu
 iiiiiiiiiiiiiiiiiiiiiiiiiii
 eeeeeeeeeeeeeeeeeeeeeeeeeee
-CCCCCCCCCCCCCCCCCCCCCCCCCCCC
-FFFFFFFFFFFFFFFFFFFFFFFFFFF
-RRRRRRRRRRRRRRRRRRRRRRRRRRR
+U
