@@ -16,7 +16,7 @@ section {
 section.homescreen {
     align-items: center;
     background-color: #24272e;
-    height: 150vh;
+    height: 190vh;
 }
 
 section#croi {
@@ -112,4 +112,3 @@ section.homescreen > h3 {
 ::-webkit-scrollbar{
     display: none;
 }
-
