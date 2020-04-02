@@ -153,6 +153,22 @@ p.footer {
     top:40%;
     z-index: 1;
 }
+
+
+#muian2{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.button_casa{
+    border-radius: 25px;
+    background: rgba(0,0,0,.4);
+    height: 120px;
+    width: 0px;
+    position: fixed;
+    top:40%;
+}
+
 .active_area:hover .sageata {   
     border-left: 60px solid rgba(0,0,0,.4); 
 }
