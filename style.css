@@ -137,9 +137,9 @@ p.footer {
 
 .active_area {
     width: 100px;
-    height: 100vh;
+    height: 100%;
     z-index: 1;
-    position: relative;
+    position: absolute;
 }
 
 .sageata {
@@ -171,27 +171,31 @@ p.footer {
 
 }
 .dantitlu{
-    border: gold solid;
+    border: 2px solid white;
     width: 700px;
     background-color: #181d4e;
-    padding-left: 40px;
-    padding-top: 20px;
+    padding: 30px;
     font-size: 100px;
-    margin: 40px;
-    color: rgb(196, 196, 196);
+    margin-top: 50px;
+    color: skyblue;
 }
 
 .danaka{
     font-size: 60px;
     color: honeydew;
-    margin-left: 50px;
+}
+
+.danporecla {
+    list-style: none;
 }
 
 .danporecla li{
      color: honeydew;
-     margin-left: 60px;
      font-size: 35px;
-     
+}
+
+.dantitlu, .danaka, .danporecla {
+    margin-left: 110px;
 }
 
 .gradient1 {
