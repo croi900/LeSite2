@@ -53,6 +53,7 @@ section.homescreen > h3 {
 
 .imghomescreen a {
     position: relative;
+    transition: transform .3s;
 }
 
 .imghomescreen a img{
@@ -61,29 +62,42 @@ section.homescreen > h3 {
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+.imghomescreen a:hover {
+    transform: scale(1.4);
+}
+
+.imghomescreen a:hover p {
+    z-index: 1;
+    background-color: rgba(255,255,255,.7);
+    font-size:20px;
+    color: black;
+    font-weight: bold;
 }
 
 .imghomescreen a p {
     transition: ease-in;
-    padding: 5px;
-    transition-duration: 0.4s;
-    position: relative;
-    left:30%;
-    width: 100px;
-    border-radius: 10px;
+    transition-duration: .2s;
+    height: 190px;
+    position: absolute;
+    padding-top:80px;
+    background-color: rgba(255,255,255,0);
+    width: 190px;
+    border-radius: 50%;
     text-decoration: none;
     text-transform:uppercase;
-    color: white;
+    color: transparent;
     text-align: center;
+    top: 12%;
+    left: 12%;
 }
 
-.imghomescreen a p:hover {
-    transition: ease-in;
-    transition-duration: 0.4s;
-    text-align: center;
-    color: skyblue;
-    background-color: rgba(0,0,0,.4);
+#exceptie1 {
+    font-size: 17px;
 }
+
 .imghomescreen a ul {
     position: absolute;
     list-style: none;
@@ -105,15 +119,6 @@ section.homescreen > h3 {
     display: flex;
     top: 20%;
 }
-#exceptie1 {
-    width: 200px;
-    left:12%;
-}
-
-#exceptie2 {
-    width: 160px;
-    left:20%;
-}
 
 ::-webkit-scrollbar{
     display: none;
@@ -134,13 +139,12 @@ p.footer {
     width: 100px;
     height: 100vh;
     z-index: 1;
+    position: relative;
 }
 
 .sageata {
     width: 0; 
     height: 0; 
-    transition-duration: 0.3s;
-    transition: ease-in;
     border-top: 60px solid transparent;
     border-bottom: 60px solid transparent;
     border-left: 60px solid transparent;
@@ -149,15 +153,13 @@ p.footer {
     top:40%;
     z-index: 1;
 }
-.active_area:hover .sageata {
-    transition: ease-in;   
+.active_area:hover .sageata {   
     border-left: 60px solid rgba(0,0,0,.4); 
-    transition-duration: 0.3s;
 }
 
 .gradient1 {
     width: 100%;
-    height: 200px;
+    height: 200px;  
     background: linear-gradient(181deg, #0c1231 0% , #1d2671 100%);
 }
 
