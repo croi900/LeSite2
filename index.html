@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="scripts/slide.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -80,8 +82,17 @@
     <div class = "gradient1"></div>
     <section id = "dan">
         <div class = "active_area">
-            <div class = "sageata"></div>
-        </div>
+            <a onclick=susta()>
+                <div id="button_back" class = "sageata">
+                    
+                </div>
+            </a>
+            <a onclick=inapoi()>
+                <div id="muian"  class = "button_casa" >
+                    <p id = "muian2" hidden="true">Acasa</p>
+                </div>
+            </a>
+        </div>          
         <div class="danhead">
             <h1 class="dantitlu">Dan Muresan</h1>
             <p class="danqoute"> ~am putza mica~</p>
