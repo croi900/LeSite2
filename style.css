@@ -18,7 +18,7 @@ section.homescreen {
     align-items: center;
     background-color: #24272e;
     z-index: 2;
-    height: 190vh;
+    height: 150vh;
 }
 
 section#croi {
@@ -40,7 +40,33 @@ section#traian{
 section#arciu{
     background-color: tomato;
 }
-
+section#balog{
+    background-color: lightsalmon;
+}
+section#bobo{
+    background-color: lightslategray;
+}
+section#cris{
+    background-color: lime;
+}
+section#iulial{ 
+    background-color: moccasin;
+}
+section#karla{
+    background-color: orchid;
+}
+section#afra{
+    background-color: powderblue;
+}
+section#panta{
+  background-color: coral;
+}
+section#mara{
+    background-color: darkgoldenrod;
+}
+section#gorgan{
+    background-color: midnightblue;
+}
 section.homescreen > h1 {
     color: white;
     font-size:60px;
