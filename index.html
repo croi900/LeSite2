@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <script src="scripts/slide.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class = "homescreen" id = "acasa">
@@ -21,7 +21,6 @@
                 </a>
                 <a href="#croi">
                     <img  src="https://i.imgur.com/5lLUtEb.jpg" alt="hoptza ca cv nu o mers">
-                    
                     <p>C(r)oi</p>
                 </a>
                 <a href="#dragos">
@@ -34,7 +33,7 @@
                 </a>
                 <a href="#traian">
                     <img  src="https://i.imgur.com/P60AnEU.jpg" alt="hoptza ca cv nu o mers">
-                    <p id = "exceptie1">Traian(Nava_Mama)</p>
+                    <p id = "exceptie">Traian(Nava_Mama)</p>
                 </a>
                 
             </div>
@@ -57,7 +56,7 @@
                     <img  src="https://i.imgur.com/Ba1CDbu.jpg" alt="hoptza ca cv nu o mers">
                     <p id=''>CrisiPisi</p>
                 </a>
-                <a href="#iuliaL">
+                <a href="#iulial">
                     <img  src="https://i.imgur.com/H7HQg5n.jpg" alt="hoptza ca cv nu o mers">
                     <p id=''>LaPu</p>
                 </a>
@@ -77,24 +76,28 @@
                     <p id=''>Pantzel</p>
                 </a>
             </div>
+           
+              
+            
+
         </div>
     </section>
+
+    <div class = "active_area">
+        <a onclick=susta()>
+            <div id="button_back" class = "sageata"></div>
+        </a>
+        <a onclick=inapoi()>
+            <div id="muian"  class = "button_casa" >
+                <p id = "muian2" hidden="false">Acasa</p>
+            </div>
+        </a>
+    </div> 
+
     <section id = "dan">
-        <div class = "active_area">
-            <a onclick=susta()>
-                <div id="button_back" class = "sageata">
-                    
-                </div>
-            </a>
-            <a onclick=inapoi()>
-                <div id="muian"  class = "button_casa" >
-                    <p id = "muian2" hidden="true">Acasa</p>
-                </div>
-            </a>
-        </div>          
         <div class="danhead">
             <h1 class="dantitlu">Dan Muresan</h1>
-            <p class="danqoute"> ~am putza mica~</p>
+            <p class="danqoute"> ~O viata avem~</p>
         </div>
         <p class="danaka">A.K.A</p>
         <ul class="danporecla">
@@ -103,81 +106,152 @@
             <li>Gigi Dondoczi</li>
             <li>Daniel_Baiatu_Vulture</li>
         </ul>
-    </section>
 
-    <section id = "croi">
-        <div class = "active_area">
-            <div class = "sageata"></div>
+        <div class="story">
+             <h1 class="backstory">Origini</h1>
+             <p class="danstory"> 
+                 Danut Muresan a fost luat la doar cateva luni pe o nava petroliera de catre o armata de muncitori infometati.
+                 El a crescut acolo invatand tainele pokerului si castigandu-si mancarea fraierindu-i pe petrolieri. La 10 ani strabunicul lui, Maestrul SujiMazu, capitanul samurailor de Dabuleni l-a gasit si  a atacat nava petroliera cu toti clanul de Dabuleni.
+                 Danut a fost salvat, insa experienta traumatica l-a schimbat pe veci, dependenta de Poker, alcool, si pastile de gat trase pe nas a ramas cu el.
+                Acum, se spune ca e mereu gasit la o partida buna de poker, sau la o Piezisa corecta.  
+             </p>
         </div>
     </section>
 
-    <section id = "dragos">
-        <div class = "active_area">
-            <div class = "sageata"></div>
+ <section id = "croi">
+       
+        <div class="croihead">
+            <h1 class="croititlu">Cristian Croitoru</h1>
+            <p class="croiqoute"> ~Ai speranta la viata 0 lei~</p>
+        </div>
+        <p class="croiaka">A.K.A</p>
+        <ul class="croiporecla">
+            <li>Croi</li>
+            <li>Balexander</li>
+            <li>M'Bake Okoye Atuk</li>
+            <li>Alah</li>
+        </ul>
+
+        <div class="story">
+             <h1 class="backstory">Origini</h1>
+             <p class="croistory"> 
+                
+             </p>
+        </div>
+   </section>
+    
+       <section id = "dragos">
+        <div class="dragoshead">
+            <h1 class="dragostitlu">Dragos Pop</h1>
+            <p class="dragosqoute"> ~~</p>
+        </div>
+        <p class="dragosaka">A.K.A</p>
+        <ul class="dragosporecla">
+            <li>Drig</li>
+            <li>Frunza</li>
+            <li>TheLamacorn</li>
+            <li>Tamaie la Plic</li>
+        </ul>
+
+        <div class="story">
+             <h1 class="backstory">Origini</h1>
+             <p class="dragosstory"> 
+                
+             </p>
         </div>
     </section>
   
     <section id = "pescar">
-        <div class = "active_area">
-            <div class = "sageata"></div>
+        <div class="pescarhead">
+            <h1 class="pescartitlu">Denis Pescar</h1>
+            <p class="pescarqoute"> ~~</p>
+        </div>
+        <p class="pescaraka">A.K.A</p>
+        <ul class="pescarporecla">
+            <li>Pescar</li>
+            <li>Laurentiu(Secret)</li>
+            <li>SnowYT</li>
+            <li></li>
+        </ul>
+
+        <div class="story">
+             <h1 class="backstory">Origini</h1>
+             <p class="pescarstory"> 
+                
+             </p>
         </div>
     </section>
 
     <section id = "traian">
-        <div class = "active_area">
-            <div class = "sageata"></div>
+        <div class="traianhead">
+            <h1 class="traiantitlu">Traian Andreica</h1>
+            <p class="traianqoute"> ~~</p>
+        </div>
+        <p class="traianaka">A.K.A</p>
+        <ul class="traianporecla">
+            <li>Nava Mama</li>
+            <li>Big Man</li>
+            <li>Habibi</li>
+            <li>TraIan si Azteca</li>
+        </ul>
+
+        <div class="story">
+             <h1 class="backstory">Origini</h1>
+             <p class="traianstory"> 
+                
+             </p>
         </div>
     </section>
  
     <section id = "arciu">
-        <div class = "active_area">
-            <div class = "sageata"></div>
+        <div class="arciuhead">
+            <h1 class="arciutitlu">Mihnea Archiudean</h1>
+            <p class="arciuqoute"> ~~</p>
+        </div>
+        <p class="arciuaka">A.K.A</p>
+        <ul class="arciuporecla">
+            <li>Arciu</li>
+            <li>MADAFACA HAU</li>
+            <li>Benone Shmurda</li>
+            <li>argyS</li>
+        </ul>
+
+        <div class="story">
+             <h1 class="backstory">Origini</h1>
+             <p class="arciustory"> 
+                
+             </p>
         </div>
     </section>
 
-    <section id = "david">
-        <div class = "active_area">
-            <div class = "sageata"></div>
-        </div>
+    <section id = "balog">
+        
     </section>
  
     <section id = "bobo">
-        <div class = "active_area">
-            <div class = "sageata"></div>
-        </div>
+        
     </section>
  
     <section id = "cris">
-        <div class = "active_area">
-            <div class = "sageata"></div>
-        </div>
+        
     </section>
 
-    <section id = "iuliaL">
-        <div class = "active_area">
-            <div class = "sageata"></div>
-        </div>
+    <section id = "iulial">
+        
     </section>
 
     <section id = "karla">
-        <div class = "active_area">
-            <div class = "sageata"></div>
-        </div>
+        
     </section>
 
     <section id = "afra">
-        <div class = "active_area">
-            <div class = "sageata"></div>
-        </div>
+        
     </section>
 
     <section id = "panta">
-        <div class = "active_area">
-            <div class = "sageata"></div>
-        </div>
+        
     </section>
     
- 
 
 </body>
 </html>
